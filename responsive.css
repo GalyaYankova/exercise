@@ -1,0 +1,218 @@
+@media all and (max-width: 1024px) {
+    .site-logos > div > div {
+        width: 15%;
+    }
+
+    .site-logos > div > div > img {
+        width: 100%;
+    }
+
+    .site-logo:not(:last-child) {
+        margin-right: 0.2rem;
+    }
+
+   .site-logos > div > div > span {
+       font-size: 1rem;
+   }
+
+   .site-blog-container h5,
+   .site-form-container h5,
+   .site-form-container h5,
+   .site-information h5{
+       font-size: 1.2rem;
+   }
+
+   .site-blog-container h2,
+   .site-form-container h2,
+   .site-information h2{
+       font-size: 1.7rem;
+   }
+
+   .site-information p{
+       font-size: 0.8rem;
+   }
+
+   form p{
+       width: 70%;
+       margin: auto;
+   }
+
+   button{
+       margin-right: 75px;
+   }
+
+   .site-posts div{
+       font-size: 0.6rem;
+   }
+
+   body > main > section.site-blog > div > section > div:nth-child(1) > h2,
+   body > main > section.site-blog > div > section > div:nth-child(2) > h2,
+   body > main > section.site-blog > div > section > div:nth-child(3) > h2{
+    font-size: 1rem;
+   }
+
+   body > main > section.site-blog > div > section > div:nth-child(2) > p{
+    padding-top: 42px;
+   }
+
+    .site-footer{
+    font-size: 0.8rem;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .site-logos > div > div {
+        width: 15%;
+    }
+
+    .site-logos > div > div > img {
+        width: 100%;
+    }
+
+    .site-logo:not(:last-child) {
+        margin-right: 1.2rem;
+    }
+
+   .site-logos > div > div > span {
+       font-size: 1rem;
+   }
+
+   .site-blog-container h5,
+   .site-form-container h5,
+   .site-form-container h5,
+   .site-information h5{
+       font-size: 1.2rem;
+   }
+
+   .site-blog-container h2,
+   .site-form-container h2,
+   .site-information h2{
+       font-size: 1.7rem;
+   }
+
+   .site-information p{
+       font-size: 0.8rem;
+   }
+
+   form p{
+       width: 70%;
+       margin: auto;
+   }
+
+   button{
+       margin-right: 75px;
+   }
+
+   .site-posts div{
+       font-size: 0.6rem;
+   }
+
+   body > main > section.site-blog > div > section > div:nth-child(1) > h2,
+   body > main > section.site-blog > div > section > div:nth-child(2) > h2,
+   body > main > section.site-blog > div > section > div:nth-child(3) > h2{
+    font-size: 1rem;
+   }
+
+   body > main > section.site-blog > div > section > div:nth-child(2) > p{
+    padding-top: 42px;
+   }
+
+    .site-footer{
+    font-size: 0.8rem;
+    }
+
+    .site-navigation ul{
+        display: none;
+    }
+
+    .entry-header-description{
+        font-size: 1.2rem;
+    }
+
+    .entry-header{
+        padding: 0;
+    }
+
+    .entry-header-title{
+        font-size: 2.2rem;
+    }
+
+    .entry-header-container p{
+        position: relative;
+        top: 107px;
+    }
+
+    .site-main{
+        margin: 0;
+    }
+
+    .button-primary{
+        margin-bottom: 20px;
+        width: 35%;
+        font-size: 0.8rem;
+        padding: 12px 0;
+        margin: 0;
+    }
+
+    .site-logos-container .site-logo{
+        width: 26%;
+    }
+
+    .site-information{
+        flex-direction: column;
+    }
+
+    .site-information-text{
+        text-align: center;
+    }
+    
+    .entry-description{
+        margin: auto;
+        text-align: center;
+    }
+
+    .site-form{
+        margin: 0;
+    }
+
+    body > main > section.entry-content > div.site-form > section.site-form-container > form > p{
+        display: flex;
+        flex-direction: column;
+    }
+
+    body > main > section.entry-content > div.site-form > section.site-form-container > form > p:nth-child(1) > label,
+    body > main > section.entry-content > div.site-form > section.site-form-container > form > p:nth-child(2) > label{
+        padding-right: 0;
+    }
+
+    body > main > section.entry-content > div.site-form > section.site-form-container > form > button{
+        margin-left: 0px;
+        margin: auto;
+        text-align: center;
+        padding-left: 65px;
+    }
+
+    .site-blog-container{
+        margin: 0;
+    }
+
+    .site-posts{
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+    }
+
+    .site-footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .site-logos-container{
+        margin: 0;
+    }
+
+    body > main > section.entry-header > div > p{
+        display: inline-block;
+    }
+        
+}
